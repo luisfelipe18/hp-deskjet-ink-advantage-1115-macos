@@ -1,0 +1,26 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# macOS app bundle & generated CUPS PPDs
+/*.app/
+/ppd/
+
+# macOS metadata & temporary files
+.DS_Store
+.AppleDouble
+.LSOverride
+*.log
+*.tmp
+*.bak
+
+# Test printouts & binaries
+*.pdf
+*.pcl
+*.bin
+
+# Secrets / environment
+.env
+.env.*
+*.pem
+*.key
